@@ -1,0 +1,239 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+}
+
+.modal-content {
+    background-color: #0784b5;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #39ace7;
+    color: white;
+}
+
+#btn-redir {
+    background-color: #39ace7;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.card {
+    background-color: #39ace7;
+    border: none;
+    height: fit-content;
+    width: fit-content;
+    margin-top: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.texto{
+    /* padding: 10px 10px; */
+
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+#texto-7, #texto-8, #texto-9 {
+    text-align: center;
+}
+
+.foto-1, .logro-1 , .logro-2{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 2px #3c649f;
+}
+
+.logro-2{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 2px #3c649f;
+}
+
+#EPT, #cepia, #caltech {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 2px #3c649f;
+}
+
+.link {
+    color: white;
+}
+
+/* Estilo cuando sidenav se muestra */
+/* -------------------------------- */
+
+.main {
+    margin-left: 180px;
+    /* Mismo ancho que sidenav */
+    font-size: 25px;
+    /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 180px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #4779c4;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #83aff0;
+}
+
+.foto-perfil {
+    width: 130px;
+    height: auto;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    border-radius: 1000px;
+    box-shadow: 0 0 10px 7px #3c649f;
+}
+
+.boton-mostrar {
+    width: 140px;
+    height: auto;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: #1b2d48;
+    position: relative;
+    bottom: 0;
+}
+
+.foto-flecha {
+    width: 40px;
+    height: 25px;
+    transform: scale(-1, 1);
+}
+/* -------------------------------- */
+
+/* Estilo cuando sidenav se oculta */
+/* -------------------------------- */
+.sidenav-oculto {
+    height: 100%;
+    width: 80px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #4779c4;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.foto-perfil-oculto {
+    width: auto;
+    height: auto;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    border-radius: 1000px;
+}
+
+.boton-mostrar-oculto {
+    width: 60px;
+    height: auto;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: #1b2d48;
+    position: absolute;
+    bottom: 50%;
+}
+
+.foto-flecha-oculto {
+    width: 30px;
+    height: 25px;
+    transform: scale(1, 1);
+}
+
+.main-oculto {
+    margin-left: 80px;
+    /* Mismo ancho que sidenav */
+    font-size: 25px;
+    /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+
+/* Media query */
+
+
+/* Pantalla Medium (<=766px)  */
+@media(min-width:766px) and (max-width:1089px) {
+
+    .col-md-12 {width: 100%;}
+    .col-md-11 {width: 91.66666667%;}
+    .col-md-10 {width: 83.33333334%;}
+    .col-md-9 {width: 75%;}
+    .col-md-8 {width: 66.66666667%;}
+    .col-md-7 {width: 58.33333334%;}
+    .col-md-6 {width: 50%;}
+    .col-md-5 {width: 41.66666667%;}
+    .col-md-4 {width: 33.33333334%;}
+    .col-md-3 {width: 25%;}
+    .col-md-2 {width: 16.66666667%;}
+    .col-md-1 {width: 8.33333333%;}
+}
+
+/* Pantalla Large (>1090px <1353px) */
+@media (min-width: 1090px) and (max-width:1353px) {
+    .col-lg-12 {width: 100%;}
+    .col-lg-11 {width: 91.66666667%;}
+    .col-lg-10 {width: 83.33333334%;}
+    .col-lg-9 {width: 75%;}
+    .col-lg-8 {width: 66.66666667%;}
+    .col-lg-7 {width: 58.33333334%;}
+    .col-lg-6 {width: 50%;}
+    .col-lg-5 {width: 41.66666667%;}
+    .col-lg-4 {width: 33.33333334%;}
+    .col-lg-3 {width: 25%;}
+    .col-lg-2 {width: 16.66666667%;}
+    .col-lg-1 {width: 8.33333333%;}
+}
+
+/* Pantalla Extra large (>1353px) */
+@media (min-width:1354px) {
+    .col-xl-12 {width: 100%;}
+    .col-xl-11 {width: 91.66666667%;}
+    .col-xl-10 {width: 83.33333334%;}
+    .col-xl-9 {width: 75%;}
+    .col-xl-8 {width: 66.66666667%;}
+    .col-xl-7 {width: 58.33333334%;}
+    .col-xl-6 {width: 50%;}
+    .col-xl-5 {width: 41.66666667%;}
+    .col-xl-4 {width: 33.33333334%;}
+    .col-xl-3 {width: 25%;}
+    .col-xl-2 {width: 16.66666667%;}
+    .col-xl-1 {width: 8.33333333%;}
+}
