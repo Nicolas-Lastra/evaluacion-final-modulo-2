@@ -190,7 +190,7 @@ h2 {
 
 
 /* Pantalla Medium (<=766px)  */
-@media(min-width:766px) and (max-width:1089px) {
+@media(min-width:766px) and (max-width:999px) {
 
     .col-md-12 {width: 100%;}
     .col-md-11 {width: 91.66666667%;}
@@ -207,7 +207,7 @@ h2 {
 }
 
 /* Pantalla Large (>1090px <1353px) */
-@media (min-width: 1090px) and (max-width:1353px) {
+@media (min-width: 1000px) and (max-width:1353px) {
     .col-lg-12 {width: 100%;}
     .col-lg-11 {width: 91.66666667%;}
     .col-lg-10 {width: 83.33333334%;}
